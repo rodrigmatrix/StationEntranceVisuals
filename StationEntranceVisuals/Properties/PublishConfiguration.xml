@@ -40,13 +40,13 @@ The name of the entrances works differently depending on the type of station
   <Screenshot Value="ParadoxRes/Screenshot6.png" />
   <Tag Value="Code Mod" />
   <ForumLink Value="https://forum.paradoxplaza.com/forum/threads/station-entrance-visuals.1714344/" />
-  <ModVersion Value="2.7" />
+  <ModVersion Value="2.8" />
   <GameVersion Value="1.*" />
   <Dependency Id="92908" />
   <Dependency Id="75426" />
   <ChangeLog>
-# v2.7
- - Updated to new game version
+# v2.8
+ - Settings moved to WE settings tab
   </ChangeLog>
   <ExternalLink Type="kofi" Url="https://ko-fi.com/rodrigmatrix" />
   <ExternalLink Type="github" Url="https://github.com/rodrigmatrix/StationEntranceVisuals" />
