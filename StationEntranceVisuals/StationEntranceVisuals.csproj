@@ -50,6 +50,9 @@
 		<Reference Include="Unity.Entities">
 			<Private>false</Private>
 		</Reference>
+    <Reference Include="Colossal.Mathematics">
+      <Private>false</Private>
+    </Reference>
 		<Reference Include="Unity.Mathematics">
 			<Private>false</Private>
 		</Reference>

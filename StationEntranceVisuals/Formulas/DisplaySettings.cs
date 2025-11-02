@@ -2,6 +2,7 @@
 using System.Linq;
 using Game.Prefabs;
 using HarmonyLib;
+using StationEntranceVisuals.Systems;
 using Unity.Entities;
 
 namespace StationEntranceVisuals.Formulas;
@@ -33,10 +34,10 @@ public class DisplaySettings
         {
             return lineData.TransportType switch
             {
-                TransportType.Bus => GetShapeIcon(Mod.m_Setting.BusShapeDropdown),
-                TransportType.Train => GetShapeIcon(Mod.m_Setting.TrainShapeDropdown),
-                TransportType.Tram => GetShapeIcon(Mod.m_Setting.TramShapeDropdown),
-                _ => GetShapeIcon(Mod.m_Setting.LineIndicatorShapeDropdown)
+                TransportType.Bus => GetShapeIcon(SEV_SettingSystem.Instance.BusLineIndicatorShape),
+                TransportType.Train => GetShapeIcon(SEV_SettingSystem.Instance.TrainLineIndicatorShape),
+                TransportType.Tram => GetShapeIcon(SEV_SettingSystem.Instance.TramLineIndicatorShape),
+                _ => GetShapeIcon(SEV_SettingSystem.Instance.SubwayLineIndicatorShape)
             };
         }
         return Square;
@@ -62,7 +63,7 @@ public class DisplaySettings
     
     public static string GetWheelchairIcon(Entity buildingRef)
     {
-        return Mod.m_Setting.LineIndicatorShapeDropdown switch
+        return SEV_SettingSystem.Instance.SubwayLineIndicatorShape switch
         {
             Settings.LineIndicatorShapeOptions.Square => "WheelchairSquare",
             Settings.LineIndicatorShapeOptions.Circle => "WheelchairCircle",
@@ -99,7 +100,7 @@ public class DisplaySettings
         {
             return Transparent;
         }
-        return Mod.m_Setting.LineOperatorCityDropdown switch
+        return SEV_SettingSystem.Instance.LineOperatorCity switch
         {
             Settings.LineOperatorCityOptions.Generic => GenericSubwayOperator + Black,
             Settings.LineOperatorCityOptions.SaoPaulo => GetSaoPauloSubwayOperatorIcon(lines),
@@ -111,7 +112,7 @@ public class DisplaySettings
     
     private static string GetSubwayOperatorIcon(HashSet<LineDescriptor> lines)
     {
-        return Mod.m_Setting.LineOperatorCityDropdown switch
+        return SEV_SettingSystem.Instance.LineOperatorCity switch
         {
             Settings.LineOperatorCityOptions.Generic => GenericSubwayOperator + Black,
             Settings.LineOperatorCityOptions.SaoPaulo => GetSaoPauloSubwayOperatorIcon(lines),
@@ -134,7 +135,7 @@ public class DisplaySettings
 
     private static string GetTrainOperatorIcon(HashSet<LineDescriptor> lines)
     {
-        return Mod.m_Setting.LineOperatorCityDropdown switch
+        return SEV_SettingSystem.Instance.LineOperatorCity switch
         {
             Settings.LineOperatorCityOptions.Generic => GenericTrainOperator + Black,
             Settings.LineOperatorCityOptions.SaoPaulo => GetSaoPauloTrainOperatorIcon(lines),

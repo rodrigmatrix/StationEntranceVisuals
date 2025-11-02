@@ -1,3 +1,27 @@
 ﻿{
-  "StationEntranceVisuals.Entrance": "Entrada"
+  "StationEntranceVisuals.Entrance": "Entrada",
+  "StationEntranceVisuals.weOptions[SubwayLineIndicatorShape]": "Forma do indicador de linha de Metrô",
+  "StationEntranceVisuals.weOptions[TrainLineIndicatorShape]": "Forma do indicador de linha de Trem",
+  "StationEntranceVisuals.weOptions[TramLineIndicatorShape]": "Forma do indicador de linha de Bonde/VLT",
+  "StationEntranceVisuals.weOptions[BusLineIndicatorShape]": "Forma do indicador de linha de Ônibus",
+  "StationEntranceVisuals.weOptions[LineIndicatorShapeOptions.Circle]": "Círculo",
+  "StationEntranceVisuals.weOptions[LineIndicatorShapeOptions.Square]": "Quadrado",
+  "StationEntranceVisuals.weOptions[LineIndicatorShapeOptions.Diamond]": "Losango",
+  "StationEntranceVisuals.weOptions[LineIndicatorShapeOptions.Pentagon]": "Pentágono",
+  "StationEntranceVisuals.weOptions[LineIndicatorShapeOptions.Hexagon]": "Hexágono",
+  "StationEntranceVisuals.weOptions[LineOperatorCity]": "Operadora da linha da cidade",
+  "StationEntranceVisuals.weOptions[LineOperatorCityOptions.Generic]": "Genérico",
+  "StationEntranceVisuals.weOptions[LineOperatorCityOptions.SaoPaulo]": "São Paulo",
+  "StationEntranceVisuals.weOptions[LineOperatorCityOptions.NewYork]": "Nova York",
+  "StationEntranceVisuals.weOptions[LineOperatorCityOptions.London]": "Londres",
+  "StationEntranceVisuals.weOptions[LineDisplayName]": "Fonte do código da linha",
+  "StationEntranceVisuals.weOptions[LineDisplayNameOptions.Custom]": "Personalizado (A partir do nome dado à linha)",
+  "StationEntranceVisuals.weOptions[LineDisplayNameOptions.WriteEverywhere]": "Do Write Everywhere",
+  "StationEntranceVisuals.weOptions[LineDisplayNameOptions.Generated]": "Gerado pelo jogo",
+  "StationEntranceVisuals.weOptions[SubwayLineIndicatorShape.tooltip]": "Escolha qual forma você deseja que suas linhas de metrô sejam exibidas.",
+  "StationEntranceVisuals.weOptions[TrainLineIndicatorShape.tooltip]": "Escolha qual forma você deseja que suas linhas de trem sejam exibidas.",
+  "StationEntranceVisuals.weOptions[TramLineIndicatorShape.tooltip]": "Escolha qual forma você deseja que suas linhas de bonde/VLT sejam exibidas.",
+  "StationEntranceVisuals.weOptions[BusLineIndicatorShape.tooltip]": "Escolha qual forma você deseja que suas linhas de ônibus sejam exibidas.",
+  "StationEntranceVisuals.weOptions[LineOperatorCity.tooltip]": "Escolha quais devem ser os operadores da linha. Se você escolher genérico, poderá substituir o operador por um atlas personalizado na aba Atlas. Se você escolher uma cidade específica, ela sempre terá o mesmo atlas e lógica para essa cidade.",
+  "StationEntranceVisuals.weOptions[LineDisplayName.tooltip]": "Permite que você altere o que deve ser exibido como o nome da linha."
 }

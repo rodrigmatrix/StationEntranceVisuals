@@ -86,20 +86,20 @@ public class LocaleEn(Settings setting) : IDictionarySource
             { setting.GetOptionTabLocaleID(Settings.MainTab), "Settings" },
             { setting.GetOptionTabLocaleID(Settings.DeveloperTab), "Developer Settings" },
             
-            { setting.GetOptionLabelLocaleID(nameof(Settings.LineIndicatorShapeDropdown)), "Subway Line Indicator Shape" },
-            { setting.GetOptionDescLocaleID(nameof(Settings.LineIndicatorShapeDropdown)), $"Choose what shape you want your subway line to be displayed in." },
+            { setting.GetOptionLabelLocaleID(nameof(Settings.LineIndicatorShapeDropdown)), "Subway Line Indicator Shape (New City)" },
+            { setting.GetOptionDescLocaleID(nameof(Settings.LineIndicatorShapeDropdown)), $"Choose what shape you want your subway line to be displayed in.\n\nThis is the default value when a city is created, after that the setting is stored per city and can be changed on Write Everywhere window, Prefab Templates Setup tab." },
             
-            { setting.GetOptionLabelLocaleID(nameof(Settings.TrainShapeDropdown)), "Train Line Indicator Shape" },
-            { setting.GetOptionDescLocaleID(nameof(Settings.TrainShapeDropdown)), $"Choose what shape you want your train line to be displayed in." },
+            { setting.GetOptionLabelLocaleID(nameof(Settings.TrainShapeDropdown)), "Train Line Indicator Shape (New City)" },
+            { setting.GetOptionDescLocaleID(nameof(Settings.TrainShapeDropdown)), $"Choose what shape you want your train line to be displayed in.\n\nThis is the default value when a city is created, after that the setting is stored per city and can be changed on Write Everywhere window, Prefab Templates Setup tab." },
 
-            { setting.GetOptionLabelLocaleID(nameof(Settings.BusShapeDropdown)), "Bus Line Indicator Shape" },
-            { setting.GetOptionDescLocaleID(nameof(Settings.BusShapeDropdown)), $"Choose what shape you want your bus line to be displayed in." },
+            { setting.GetOptionLabelLocaleID(nameof(Settings.BusShapeDropdown)), "Bus Line Indicator Shape (New City)" },
+            { setting.GetOptionDescLocaleID(nameof(Settings.BusShapeDropdown)), $"Choose what shape you want your bus line to be displayed in.\n\nThis is the default value when a city is created, after that the setting is stored per city and can be changed on Write Everywhere window, Prefab Templates Setup tab." },
 
-            { setting.GetOptionLabelLocaleID(nameof(Settings.TramShapeDropdown)), "Tram Line Indicator Shape" },
-            { setting.GetOptionDescLocaleID(nameof(Settings.TramShapeDropdown)), $"Choose what shape you want your tram line to be displayed in." },
+            { setting.GetOptionLabelLocaleID(nameof(Settings.TramShapeDropdown)), "Tram Line Indicator Shape (New City)" },
+            { setting.GetOptionDescLocaleID(nameof(Settings.TramShapeDropdown)), $"Choose what shape you want your tram line to be displayed in.\n\nThis is the default value when a city is created, after that the setting is stored per city and can be changed on Write Everywhere window, Prefab Templates Setup tab." },
 
-            { setting.GetOptionLabelLocaleID(nameof(Settings.EnableLayoutValidation)), "Enable Layout Validation" },
-            { setting.GetOptionDescLocaleID(nameof(Settings.EnableLayoutValidation)), $"Mock lines for every station to validate the layouts." },
+            { setting.GetOptionLabelLocaleID(nameof(Settings.EnableLayoutValidation)), "Enable Layout Validation (New City)" },
+            { setting.GetOptionDescLocaleID(nameof(Settings.EnableLayoutValidation)), $"Mock lines for every station to validate the layouts.\n\nThis is the default value when a city is created, after that the setting is stored per city and can be changed on Write Everywhere window, Prefab Templates Setup tab." },
             
             { setting.GetOptionLabelLocaleID(nameof(Settings.SubwayLines)), "Subway Lines" },
             { setting.GetOptionDescLocaleID(nameof(Settings.SubwayLines)), $"Number of subway lines to display." },
@@ -113,16 +113,16 @@ public class LocaleEn(Settings setting) : IDictionarySource
             { setting.GetEnumValueLocaleID(Settings.LineIndicatorShapeOptions.Pentagon), "Pentagon Shape" },
             { setting.GetEnumValueLocaleID(Settings.LineIndicatorShapeOptions.Hexagon), "Hexagon Shape" },
             
-            { setting.GetOptionLabelLocaleID(nameof(Settings.LineOperatorCityDropdown)), "Line Operators" },
-            { setting.GetOptionDescLocaleID(nameof(Settings.LineOperatorCityDropdown)), $"Choose what should be the line operators. If you choose generic, you can replace the operator with a custom atlas on Write Everywhere settings. If you choose a specific city, it will always have the same atlas and logic for that city" },
+            { setting.GetOptionLabelLocaleID(nameof(Settings.LineOperatorCityDropdown)), "Line Operators (New City)" },
+            { setting.GetOptionDescLocaleID(nameof(Settings.LineOperatorCityDropdown)), $"Choose what should be the line operators. If you choose generic, you can replace the operator with a custom atlas on Write Everywhere settings. If you choose a specific city, it will always have the same atlas and logic for that city.\n\nThis is the default value when a city is created, after that the setting is stored per city and can be changed on Write Everywhere window, Prefab Templates Setup tab." },
             
             { setting.GetEnumValueLocaleID(Settings.LineOperatorCityOptions.Generic), "Generic Operator" },
             { setting.GetEnumValueLocaleID(Settings.LineOperatorCityOptions.SaoPaulo), "Sao Paulo Operators" },
             { setting.GetEnumValueLocaleID(Settings.LineOperatorCityOptions.NewYork), "New York Operators" },
             { setting.GetEnumValueLocaleID(Settings.LineOperatorCityOptions.London), "London Operators" },
             
-            { setting.GetOptionLabelLocaleID(nameof(Settings.LineDisplayNameDropdown)), "Line Display Name" },
-            { setting.GetOptionDescLocaleID(nameof(Settings.LineDisplayNameDropdown)), $"Allows you to change what should be displayed as the line name" },
+            { setting.GetOptionLabelLocaleID(nameof(Settings.LineDisplayNameDropdown)), "Line Display Name (New City)" },
+            { setting.GetOptionDescLocaleID(nameof(Settings.LineDisplayNameDropdown)), $"Allows you to change what should be displayed as the line name.\n\nThis is the default value when a city is created, after that the setting is stored per city and can be changed on Write Everywhere window, Prefab Templates Setup tab." },
             
             { setting.GetEnumValueLocaleID(Settings.LineDisplayNameOptions.Custom), "Custom (Based on the name of the line)" },
             { setting.GetEnumValueLocaleID(Settings.LineDisplayNameOptions.WriteEverywhere), "Write EveryWhere (Based on the Write Everywhere name of the line)" },

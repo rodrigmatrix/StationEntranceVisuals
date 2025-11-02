@@ -1,5 +1,6 @@
 ﻿using System;
 using Game.Prefabs;
+using StationEntranceVisuals.Systems;
 using Unity.Entities;
 
 namespace StationEntranceVisuals.Formulas;
@@ -17,7 +18,7 @@ public record struct LineDescriptor(
 
     public string GetDisplayName()
     {
-        return Mod.m_Setting.LineDisplayNameDropdown switch
+        return SEV_SettingSystem.Instance.LineDisplayName switch
         {
             Settings.LineDisplayNameOptions.Custom => SmallName,
             Settings.LineDisplayNameOptions.WriteEverywhere => Acronym,
@@ -28,7 +29,7 @@ public record struct LineDescriptor(
     
     public string GetOrderingIndex()
     {
-        return Mod.m_Setting.LineDisplayNameDropdown switch
+        return SEV_SettingSystem.Instance.LineDisplayName switch
         {
             Settings.LineDisplayNameOptions.Custom => SmallName,
             Settings.LineDisplayNameOptions.WriteEverywhere => Acronym,
