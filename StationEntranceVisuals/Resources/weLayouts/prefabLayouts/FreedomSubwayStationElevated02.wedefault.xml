@@ -1,0 +1,70 @@
+<WELayout>
+  <children>
+    <self itemName="Decals 1">
+      <transform alignment="Left" arrayAxisOrder="XYZ">
+        <offsetPosition x="24.3430042" y="3.22699952" z="19.0000019" />
+        <offsetRotation x="-0" y="90" z="0" />
+        <scale x="0.15" y="0.15" z="1" />
+        <mustDraw>0</mustDraw>
+        <instanceCount>-1</instanceCount>
+        <arrayInstances x="1" y="1" z="1" />
+        <arraySpacing x="0" y="0" z="0" />
+      </transform>
+      <layoutMesh>
+        <layout>VanillaUnderground</layout>
+      </layoutMesh>
+    </self>
+    <variable key="wheelchair" />
+  </children>
+  <children>
+    <self itemName="Decals 2">
+      <transform alignment="Left" arrayAxisOrder="XYZ">
+        <offsetPosition x="-18.6213856" y="3.23299956" z="18.5983086" />
+        <offsetRotation x="-0" y="305" z="0" />
+        <scale x="0.15" y="0.15" z="1" />
+        <mustDraw>0</mustDraw>
+        <instanceCount>-1</instanceCount>
+        <arrayInstances x="1" y="1" z="1" />
+        <arraySpacing x="0" y="0" z="0" />
+      </transform>
+      <layoutMesh>
+        <layout>VanillaUnderground</layout>
+      </layoutMesh>
+    </self>
+    <variable key="wheelchair" />
+  </children>
+  <children>
+    <self itemName="Decals 3">
+      <transform alignment="Left" arrayAxisOrder="XYZ">
+        <offsetPosition x="-23.03161" y="3.2319994" z="14.690444" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="0.15" y="0.15" z="1" />
+        <mustDraw>0</mustDraw>
+        <instanceCount>-1</instanceCount>
+        <arrayInstances x="1" y="1" z="1" />
+        <arraySpacing x="0" y="0" z="0" />
+      </transform>
+      <layoutMesh>
+        <layout>VanillaUnderground</layout>
+      </layoutMesh>
+    </self>
+    <variable key="wheelchair" />
+  </children>
+  <children>
+    <self itemName="Decals 4">
+      <transform alignment="Left" arrayAxisOrder="XYZ">
+        <offsetPosition x="-4.1045785" y="3.21699953" z="-24.6825256" />
+        <offsetRotation x="-0" y="180" z="0" />
+        <scale x="0.15" y="0.15" z="1" />
+        <mustDraw>0</mustDraw>
+        <instanceCount>-1</instanceCount>
+        <arrayInstances x="1" y="1" z="1" />
+        <arraySpacing x="0" y="0" z="0" />
+      </transform>
+      <layoutMesh>
+        <layout>VanillaUnderground</layout>
+      </layoutMesh>
+    </self>
+    <variable key="wheelchair" />
+  </children>
+</WELayout>
