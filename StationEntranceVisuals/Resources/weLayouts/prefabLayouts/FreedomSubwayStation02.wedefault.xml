@@ -1,0 +1,41 @@
+<WELayout>
+  <children>
+    <self itemName="Decals 1">
+      <transform>
+        <offsetPosition x="10.8400011" y="4.25" z="10.2000008" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="0.15" y="0.15" z="1" />
+      </transform>
+      <layoutMesh>
+        <layout>StationEntranceLarge</layout>
+      </layoutMesh>
+    </self>
+    <variable key="wheelchair" />
+  </children>
+  <children>
+    <self itemName="Decals 2">
+      <transform>
+        <offsetPosition x="66.04" y="4.25" z="10.2000017" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="0.15" y="0.15" z="1" />
+      </transform>
+      <layoutMesh>
+        <layout>StationEntranceLarge</layout>
+      </layoutMesh>
+    </self>
+    <variable key="wheelchair" />
+  </children>
+  <children>
+    <self itemName="Decals 3">
+      <transform>
+        <offsetPosition x="-66.06" y="4.25" z="10.1999989" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="0.15" y="0.15" z="1" />
+      </transform>
+      <layoutMesh>
+        <layout>StationEntranceLarge</layout>
+      </layoutMesh>
+    </self>
+    <variable key="wheelchair" />
+  </children>
+</WELayout>

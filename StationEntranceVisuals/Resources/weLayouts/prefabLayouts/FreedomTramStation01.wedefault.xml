@@ -1,0 +1,18 @@
+<WELayout>
+  <children>
+    <self itemName="New item">
+      <transform alignment="Left" arrayAxisOrder="XYZ">
+        <offsetPosition x="-19.4105015" y="2.50999975" z="-9.495999" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="3.60796928" y="0.55625" z="1" />
+        <mustDraw>0</mustDraw>
+        <instanceCount>-1</instanceCount>
+        <arrayInstances x="1" y="1" z="1" />
+        <arraySpacing x="0" y="0" z="0" />
+      </transform>
+      <layoutMesh>
+        <layout>StationEntranceVisuals:StationEntranceMedium</layout>
+      </layoutMesh>
+    </self>
+  </children>
+</WELayout>
