@@ -58,6 +58,9 @@
 		</Reference>
 		<Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
 			<Private>false</Private>
+		</Reference>                         
+		<Reference Include="Colossal.AssetPipeline">
+			<Private>false</Private>
 		</Reference>
 	</ItemGroup>
 
@@ -86,11 +89,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Lib.Harmony" Version="2.2.2" />
+		<PackageReference Include="Lib.Harmony" Version="2.3.3" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Resources\fonts\" />
+		<Folder Include="Resources\layouts\" />
+		<Folder Include="Resources\atlases\" />
+		<Folder Include="Resources\fonts\" />
 	</ItemGroup>
 
 	<Target Name="GetAdditionalFiles" AfterTargets="DeployWIP">
